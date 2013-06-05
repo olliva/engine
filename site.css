@@ -87,6 +87,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f6766', end
     display: inline-block;
     padding-right:20px;
     position: relative;
+    zoom: 1;
+    *display: inline;
 }
 .headerMenu li a{
     display: block;
@@ -254,6 +256,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f6766', end
 .engineName{
     display: inline-block;
     text-align: center;
+    zoom: 1;
+    *display: inline;
 }
 .engineName label{
     display: block;
