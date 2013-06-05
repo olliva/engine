@@ -346,6 +346,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 .download{
     height: 178px;
     padding: 34px 24px 24px 24px;
+    overflow: auto;
+    zoom:1;
+}
+.xls, .ppt{
+    overflow: auto;
+    zoom:1;
 }
 .download img{
     float: left;
@@ -380,6 +386,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     padding-bottom: 36px;
     border-bottom: 1px solid #cdd5dd;
     margin-bottom: 35px;
+    overflow: auto;
+    zoom:1;
+    position: relative;
 }
 .about a{
     margin-left: 35px;
@@ -404,6 +413,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     padding-bottom: 10px;
     border-bottom: 1px solid #cdd5dd;
     margin-bottom: 35px;
+    overflow: auto;
+    zoom:1;
  }
  .catColumn{
     width: 245px;
@@ -479,6 +490,7 @@ a.archive{
 .articles{
     margin-top: 25px;
     margin-bottom: 70px;
+    overflow: auto;
 }
 .articleInColumn{
     width: 245px;
