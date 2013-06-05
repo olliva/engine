@@ -81,12 +81,19 @@ input:focus{
 .headerMenu li{
     display: inline-block;
     padding-right:20px;
+    position: relative;
 }
-.headerMenu li:after{
-    content: url(img/point.png) no-repeat;
+.headerMenu li a{
+    display: block;
+    position: relative;
+}
+.headerMenu li a:after{
+    content: url("img/point.png");
     padding-left: 20px;
+
+
 }
-.headerMenu li:last-child:after{
+.headerMenu li:last-child a:after{
     content: "";
     padding-left: 0;
 }
@@ -318,6 +325,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     float: left;
     margin-right: 20px;
 }
+.xls img{
+    margin-right: 25px;
+}
 .download a{
     color: #e63a27;
     font-family: "PTSans";
@@ -454,7 +464,7 @@ a.archive{
 .articleInColumn a{
     margin: 0;
     text-decoration: none;
-    font-weight: bold;
+    font-family: "PTSansBold";
 }
 
 
