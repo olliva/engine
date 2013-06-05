@@ -2,14 +2,50 @@
 <html>
     <head>
     	<meta name="viewport" content="width=device-width" />
-        <title>Test</title>
+        <title>Engine</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href="site.css"></link>
+        <script type="text/javascript" src="jquery-1.8.3.js"></script>
     </head>
     <script type="text/javascript">
-    $(document).ready(function(){
+        $(function () {
+            var $slides = $('.corusel .coruselImage .slide');
+            var $menuElements = $('.corusel UL.coruselMenu LI');
+            var slidesCount = $menuElements.size();
 
-    })
+            function getActiveSlideNumber()
+            {
+                return $('.corusel UL.coruselMenu LI.active').index();
+            }
+
+            function activateSlide(slideNumber)
+            {
+                $slides.removeClass('active');
+                $menuElements.removeClass('active');
+
+                var $slideToActivate = $($slides.get(slideNumber));
+
+                $slideToActivate.addClass('active');
+                $slideToActivate.css('opacity', 0);
+                $slideToActivate.animate({ 'opacity': 1 }, 300);
+
+                $($menuElements.get(slideNumber)).addClass('active');
+            }
+
+            var interval = setInterval(function () {
+                var activeSlideNumber = getActiveSlideNumber();
+                activateSlide(activeSlideNumber == slidesCount - 1 ? 0 : activeSlideNumber + 1);
+            }, 3000);
+
+            $menuElements.click(function () {
+                clearInterval(interval);
+                var slideNumber = $(this).index();
+                activateSlide(slideNumber);
+                return false;
+            });
+
+        });
+
     </script>
     <body>
         <div class="pageContainer">
@@ -38,14 +74,31 @@
             </div>
             <div class="corusel clearfix">
                 <ul class="coruselMenu">
-                    <li class="isActive"><a href="#">Аренда ДГУ</a></li>
+                    <li class="active"><a href="#">Аренда ДГУ</a></li>
                     <li><a href="#">Тех. обслуживание</a></li>
                     <li><a href="#">Ремонт и обслуживание</a></li>
                     <li><a href="#">Спецификации ДГУ</a></li>
                     <li><a href="#">Продажа ДГУ</a></li>
                 </ul>
                 <div class="coruselImage">
-                    <img src="img/slide1.png"/>
+                    <div class="slide active">
+                        <img src="img/slide1.png"/>
+                    </div>
+                    <div class="slide">
+                        Привет, ОЛЯ
+                    </div>
+                    <div class="slide">
+                        Слайд стопицот
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide1.png"/>
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide1.png"/>
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide1.png"/>
+                    </div>
                 </div>
             </div>
             <div class="content clearfix">
