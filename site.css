@@ -107,12 +107,12 @@ input:focus{
 }
 @font-face {
     font-family: "PTSans";
-    src: url("journal-webfont.eot");
     src: url('PTSans.otf') format("opentype");
 }
 @font-face {
     font-family: "PfAgora";
     src: url('PfAgora.eot');
+    src: url('PfAgora.eot?') format('eot');
     src: url('PfAgora.otf') format("opentype");
 }
 @font-face {
