@@ -456,14 +456,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     display: block;
 }
 .catColumnContent li:hover {
-    background: rgb(30,87,153); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(82,134,133,1) 0%, rgba(44,89,88,1) 100%, rgba(220,36,18,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(0%,rgba(82,134,133,1)), color-stop(100%,rgba(44,89,88,1)), color-stop(100%,rgba(220,36,18,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%,rgba(220,36,18,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%,rgba(220,36,18,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%,rgba(220,36,18,1) 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%,rgba(220,36,18,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#dc2412',GradientType=0 ); /* IE6-9 */
+    background: rgb(82,134,133); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(82,134,133,1) 0%, rgba(44,89,88,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(82,134,133,1)), color-stop(100%,rgba(44,89,88,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(82,134,133,1) 0%,rgba(44,89,88,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#528685', endColorstr='#2c5958',GradientType=0 ); /* IE6-9 */
+
 }
 .catColumnContent a:hover{
     color: white;
