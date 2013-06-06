@@ -7,3 +7,17 @@
 .articleInColumn{
 	width: 215px;
 }
+.select{
+	width: 200px;
+}
+.download{
+	width: 120px;
+}
+a.archive{
+	margin-top: -20px;
+}
+a.aboutLink{
+	margin-top: -20px;
+	display: block;
+	margin-left: 150px;
+}
