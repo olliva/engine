@@ -22,13 +22,7 @@ a.aboutLink{
 	display: block;
 	margin-left: 150px;
 }
-.catColumnContent ul li,
-.catColumnContent,
-.redButton,
-.select,
-.corusel{
-	behavior: url(border-radius.htc);
-}
+
 .noise{
 	left: 0;
 }
