@@ -29,3 +29,6 @@ a.aboutLink{
 .corusel{
 	behavior: url(border-radius.htc);
 }
+.noise{
+	left: 0;
+}
