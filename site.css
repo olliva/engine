@@ -127,7 +127,7 @@ input:focus{
     color: white;
     text-decoration: underline;
     font-size: 13px;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
 }
 .header a:hover{
     color: #acc8a1;
@@ -202,7 +202,7 @@ input:focus{
 .coruselMenu a{
     text-decoration: none;
     color: white;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-size: 16px;
     font-weight: lighter;
     width: 100%;
@@ -256,15 +256,16 @@ input:focus{
 }
 .select h1{
 
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-weight: lighter;
     font-size: 17px;
     color: #343434;
 }
 .select h2{
-    font-family: "PTSansBold";
+    font-family: "PTSansBold", arial;
     font-size: 12px;
     color: #343434;
+    font-weight: bold;
 }
 .engineName{
     display: inline-block;
@@ -278,7 +279,7 @@ input:focus{
 .select label{
     font-size: 13px;
     color: #343434;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     line-height: 26px;
 }
 
@@ -313,7 +314,7 @@ input:focus{
     width: 136px;
     height: 40px;
     color: white;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-weight: lighter;
     font-size: 15px;
     text-shadow: 0px 1px 1px black;
@@ -362,7 +363,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 .download a{
     color: #e63a27;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-size: 15px;
     margin-top: 10px;
     float: left;
@@ -378,7 +379,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     margin-left: 25px;
     float: right;
     width: 735px;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-size: 22px;
 }
 .aboutContent{
@@ -470,7 +471,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#528685', end
     color: white;
 }
 .catColumnContent{
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-size: 13px;
     color: #8b8b8b;
 }
@@ -498,12 +499,13 @@ a.archive{
     float: left;
     padding-right: 30px;
     font-size: 13px;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
 }
 .articleInColumn a{
     margin: 0;
     text-decoration: none;
-    font-family: "PTSansBold";
+    font-family: "PTSansBold", arial;
+    font-weight: bold;
 }
 
 
@@ -526,7 +528,7 @@ a.archive{
     float: left;
     font-size: 13px;
     margin-left: 7px;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
 }
 .firmInform a{
     color: #e63a27;
@@ -540,7 +542,7 @@ a.archive{
 .redCall a{
     color: #e63a27;
     font-size: 13px;
-    font-family: "PTSans"
+    font-family: "PTSans", arial;
 }
 
 .footer .telephones {
@@ -576,7 +578,7 @@ a.archive{
     width: 245px;
     margin-top: 10px;
     font-size: 13px;
-    font-family: "PTSans";
+    font-family: "PTSans", arial;
     font-weight: lighter;
 }
 .pixel img{
