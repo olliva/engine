@@ -584,9 +584,23 @@ a.archive{
 }
 
 
+.styled{
 
-
-
+    display: block;
+  clear: left;
+  float: left;
+  margin-top: 5px;
+margin-right: 5px;
+}
+.styled1{
+    margin-left: 21px;
+}
+.styled2{
+    margin-left: 6px;
+}
+.styled3{
+    margin-left: 27px;
+}
 
 
 

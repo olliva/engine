@@ -6,6 +6,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href="site.css"></link>
         <script type="text/javascript" src="jquery-1.8.3.js"></script>
+        <script src="jquery.screwdefaultbuttonsV2.min.js" ></script>
     </head>
     <script type="text/javascript">
         $(function () {
@@ -47,6 +48,15 @@
         });
 
     </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('input.styled').screwDefaultButtons({ 
+            image: "url(img/radioButton.png)",
+            width:   15,
+            height:  15
+        });
+    });
+    </script>
     <!--[if IE 7]>
         <link rel="stylesheet" type="text/css" href="ie7.css" />
     <![endif]-->
@@ -58,7 +68,7 @@
                     <a href=""><img src="img/logo.png"></a>
                 </div>
                 <ul class="headerMenu">
-                    <li><a href="#">Каталог4</a></li>
+                    <li><a href="#">Каталог</a></li>
                     <li><a href="#">Полезная информация</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
@@ -88,10 +98,10 @@
                         <img src="img/slide1.png"/>
                     </div>
                     <div class="slide">
-                        Привет, ОЛЯ
+                       <img src="img/slide1.png"/>
                     </div>
                     <div class="slide">
-                        Слайд стопицот
+                        <img src="img/slide1.png"/>
                     </div>
                     <div class="slide">
                         <img src="img/slide1.png"/>
@@ -111,17 +121,17 @@
                             <h1>Марка двигателя:</h1>
                             <div class="engineName">
                                 <label for="but_1"><img src="img/engine1.png"></label>
-                                <input type="radio" name="engine" class="styled" id="but_1"/> 
+                                <input type="radio" name="engine" class="styled styled1" id="but_1"/> 
 
                             </div>
                             <div class="engineName">
                                 <label for="but_2"><img src="img/engine2.png"></label>
-                                <input type="radio" name="engine" class="styled" id="but_2"/> 
+                                <input type="radio" name="engine" class="styled styled2" id="but_2"/> 
 
                             </div>
                             <div class="engineName">
                                 <label for="but_3"><img src="img/engine3.png"></label>
-                                <input type="radio" name="engine" class="styled" id="but_3"/> 
+                                <input type="radio" name="engine" class="styled styled3" id="but_3"/> 
 
                             </div>
                         </div>
@@ -140,7 +150,7 @@
                             <input type="radio" name="phase" class="styled" id="ph2"/> 
                             <label for="ph2">от 100 до 250 кВА</label>
                             <br>
-                            <input type="radio" name="phase" class="styled" id="ph3"/> 
+                            <input type="radio" name="phase" class="styled styled_a" id="ph3"/> 
                             <label for="ph3">свыше 250 кВА</label>
                         </div>
                         <div class="redButtonContainer">

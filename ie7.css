@@ -29,3 +29,13 @@ a.aboutLink{
 .articleInColumn a{
 	font-weight: bold;
 }
+
+
+.styled{
+	background-image: url(img/button.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: block;
+  clear: left;
+  float: left;
+}
