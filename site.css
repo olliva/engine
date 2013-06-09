@@ -345,7 +345,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     overflow: auto;
     zoom:1;
 }
-.xls, .ppt{
+.prez{
     overflow: auto;
     zoom:1;
 }
@@ -362,6 +362,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     font-size: 15px;
     margin-top: 10px;
     float: left;
+}
+
+.download a.prezImg{
+    margin-top: 0;
 }
 
 
