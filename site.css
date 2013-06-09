@@ -121,7 +121,7 @@ input:focus{
     color: white;
     text-decoration: underline;
     font-size: 13px;
-    font-family: "PTSans", arial;
+    font-family: arial;
 }
 .header a:hover{
     color: #acc8a1;
