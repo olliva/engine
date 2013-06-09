@@ -30,12 +30,8 @@ a.aboutLink{
 	font-weight: bold;
 }
 
-
-.styled{
-	background-image: url(img/button.png) no-repeat;
-	width: 16px;
-	height: 16px;
-	display: block;
-  clear: left;
-  float: left;
+.headerMenu li div{
+	height: 49px;
+	margin-top: 45px;
 }
+

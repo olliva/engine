@@ -126,10 +126,7 @@ input:focus{
 .header a:hover{
     color: #acc8a1;
 }
-.headerMenu li div{
-    line-height: 94px;
-    position: relative;
-}
+
 .call{
     float: left;
     text-align: center;
